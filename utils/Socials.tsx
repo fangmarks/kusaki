@@ -9,6 +9,7 @@ type Social = {
 const Socials: Social[] = [
   { name: "Email", string: "mailto:puma@himbo.cat", icon: <Gmail /> },
   { name: "Twitter", string: "https://twitter.com/kusakidesu", icon: <Twitter /> },
+  { name: "Picarto", string: "https://picarto.tv/kusaki", icon: <PicartoDotTv /> },
   { name: "FurAffinity", string: "https://furaffinity.com/user/ideekay03", icon: <Furaffinity /> },
   { name: "Ko-Fi", string: "https://ko-fi.com/kusakidesu", icon: <KoFi /> },
   { name: "Telegram", string: "https://t.me/kusakidesu", icon: <Telegram /> },
