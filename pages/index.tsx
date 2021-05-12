@@ -4,24 +4,25 @@ import Head from "next/head"
 import Socials from "../utils/Socials"
 const IndexPage = () => (
   <>
-    <Head>
-      <title>KusakiDesu</title>
-      
-        <meta name="theme-color" content="#ffffff">
-        <meta property="og:title" content="Kusaki">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://puma.himbo.cat">
-        <script async defer data-website-id="94288e75-da3b-48a9-abb9-e878fe8c4028" src="https://stats.himbo.cat/umami.js"></script>
-        <meta property="og:description" content="Graphic Designer / DJ / Sneakerhead / Fashion Fur / Record Collector">
-        <meta property="og:image" content="/assets/kitty.jpg">
 
-        <meta name="description" content="Graphic Designer / DJ / Sneakerhead / Fashion Fur / Record Collector">
-        <meta name="twitter:card" content="summary">
-        <meta name="twitter:image" content="/assets/kitty.jpg">
-        <meta name="twitter:creator" content="@KusakiDesu">
-      
-    </Head>
+
     <div>
+      <Head>
+        <title>KusakiDesu</title>
+        <meta name="theme-color" content="#ffffff" />
+        <meta property="og:title" content="Kusaki" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://puma.himbo.cat" />
+        <script async defer data-website-id="94288e75-da3b-48a9-abb9-e878fe8c4028" src="https://stats.himbo.cat/umami.js"></script>
+        <meta property="og:description" content="Graphic Designer / DJ / Sneakerhead / Fashion Fur / Record Collector" />
+        <meta property="og:image" content="/assets/kitty.jpg" />
+
+        <meta name="description" content="Graphic Designer / DJ / Sneakerhead / Fashion Fur / Record Collector" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:image" content="/assets/kitty.jpg" />
+        <meta name="twitter:creator" content="@KusakiDesu" />
+
+      </Head>
       <div className="font-sans  min-h-screen flex justify-center items-center text-center relative">
         <Link href="https://lio.click/twitter">
           <a className="absolute top-0 left-0 ml-3 mt-3">
