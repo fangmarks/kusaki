@@ -1,8 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Head from "next/head"
 import Socials from "../utils/Socials"
 const IndexPage = () => (
   <>
+    <Head>
+      <title>KusakiDesu</title>
+    </Head>
     <div>
       <div className="font-sans  min-h-screen flex justify-center items-center text-center relative">
         <Link href="https://lio.click/twitter">
