@@ -4,7 +4,12 @@ import Socials from "../utils/Socials"
 const IndexPage = () => (
   <>
     <div>
-      <div className="font-sans  min-h-screen flex justify-center items-center text-center">
+      <div className="font-sans  min-h-screen flex justify-center items-center text-center relative">
+        <Link href="https://lio.click/twitter">
+          <a className="absolute top-0 left-0 ml-3 mt-3">
+            <Image height={156 / 3} width={110 / 3} src="/assets/caecus.png" className="mix-blend-exclusion" alt="" />
+          </a>
+        </Link>
         <article className="p-11 bg-gradient-to-r from-pink-300 to-pink-500 flex flex-wrap md:flex-nowrap shadow-2xl mx-auto justify-center items-center md:text-left sm:text-center rounded-none">
           <div className="md:hidden sm:inline">
             <Image height={476 / 2} width={476 / 2} className="md:w-80 w-1.5 rounded-full" src="/assets/kitty.jpg" alt="" />
@@ -36,6 +41,7 @@ const IndexPage = () => (
         </article>
       </div>
     </div>
+
   </>
 )
 
