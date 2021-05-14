@@ -31,7 +31,7 @@ const IndexPage = () => (
           <div className="md:hidden sm:inline">
             <Image height={476 / 2} width={476 / 2} className="md:w-80 w-1.5 rounded-full" src="/assets/kitty.jpg" alt="" />
           </div>
-          <div className="p-11 my-auto">
+          <div className="p-5 my-auto">
             <Image width={256 / 1.5} height={96 / 1.5} src="/assets/logo.png" alt="Kusaki Logo" className="md:w-1/3 rounded-t-lg md:rounded-l-lg md:rounded-t-none" />
             <p className="mt-2 font-semibold">
               Graphic Designer / DJ / Sneakerhead / Fashion Fur / Record Collector
